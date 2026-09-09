@@ -108,7 +108,6 @@ Includes:
 
 # 🔄 Data Analytics Workflow
 
-```text
 Simulated ESG Dataset
         ↓
 Microsoft Excel
@@ -128,11 +127,9 @@ ESG KPI Analysis
 Interactive Power BI Dashboard
         ↓
 Sustainability Performance Report
-```text
 
-----
 
-# 📐 Data Modeling
+📐 Data Modeling
 
 The Power BI model uses separate fact and dimension tables.
 
@@ -369,6 +366,7 @@ Increase waste recycling to exceed the 85% target.
 Maintain strong workplace safety programs.
 Strengthen data privacy monitoring and controls.
 Continue improving ethics training completion.
+
 📁 Repository Structure
 EcoManufacture-ESG-Analytics/
 │
@@ -394,6 +392,7 @@ EcoManufacture-ESG-Analytics/
 │
 └── documentation/
     └── Data_Dictionary.xlsx
+
 ⚠️ Data Disclaimer
 
 This project is intended for portfolio and educational purposes.
