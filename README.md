@@ -128,8 +128,11 @@ ESG KPI Analysis
 Interactive Power BI Dashboard
         ↓
 Sustainability Performance Report
+```text
 
-📐 Data Modeling
+----
+
+# 📐 Data Modeling
 
 The Power BI model uses separate fact and dimension tables.
 
