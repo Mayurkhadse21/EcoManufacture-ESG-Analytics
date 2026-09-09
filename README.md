@@ -129,7 +129,7 @@ Interactive Power BI Dashboard
 Sustainability Performance Report
 
 
-📐 Data Modeling
+# 📐 Data Modeling
 
 The Power BI model uses separate fact and dimension tables.
 
@@ -153,7 +153,7 @@ Region
 
 while maintaining appropriate relationships between the ESG datasets.
 
-🧮 Key DAX Measures
+# 🧮 Key DAX Measures
 
 Examples of measures created in Power BI include:
 
@@ -189,7 +189,7 @@ DIVIDE(
 
 Additional DAX measures were created for emissions, energy, water, waste, workforce, turnover, training, safety, board composition, ethics, compliance, and data privacy.
 
-🌱 Environmental Performance
+# 🌱 Environmental Performance
 
 The Environmental dashboard monitors:
 
@@ -208,7 +208,8 @@ Renewable energy adoption increased significantly.
 Water consumption showed a gradual improvement.
 Waste recycling performance improved toward the 2025 target.
 Scope 3 emissions remained relatively stable compared with Scope 1 and Scope 2.
-👥 Social Performance
+
+# 👥 Social Performance
 
 The Social dashboard focuses on:
 
@@ -242,7 +243,8 @@ Female board representation improved consistently.
 Ethics training completion increased to approximately 97.3% in 2025.
 Compliance incidents declined from 30 to 12.
 Data privacy incidents remained an area requiring continued monitoring.
-🎯 ESG Target Tracking
+
+# 🎯 ESG Target Tracking
 
 The project includes a target framework for 2025.
 
@@ -255,52 +257,37 @@ Employee Turnover	9.4%	<9%	Not Achieved
 Recordable Injuries Reduction	~40.4%	25% reduction	Achieved
 Ethics Training	97.3%	98%	Near Target
 Compliance Incidents Reduction	60%	30% reduction	Achieved
-📈 Power BI Dashboard
 
-The Power BI solution contains four main pages.
+# 📈 Power BI Dashboard
 
-1. ESG Overview
+The Power BI solution contains four interactive dashboard pages designed to monitor ESG performance across facilities and years.
+
+## ESG Overview
 
 Executive-level summary of key Environmental, Social and Governance indicators.
 
-Includes:
+![ESG Overview](Screenshots/ESG_Overview.png)
 
-Total GHG emissions
-Renewable energy
-Female workforce
-Employee turnover
-Ethics training completion
-Compliance incidents
-ESG trend visualizations
-2. Environmental Performance
+## Environmental Performance
 
-Focuses on:
+GHG emissions, energy consumption, renewable energy, water consumption and waste performance.
 
-GHG emissions
-Energy
-Renewable energy
-Water
-Waste
-3. Social Performance
+![Environmental Performance](Screenshots/Environmental_Performance.png)
 
-Focuses on:
+## Social Performance
 
-Workforce
-Diversity
-Employee turnover
-Training
-Workplace safety
-4. Governance Performance
+Workforce, diversity, employee turnover, training and workplace safety.
 
-Focuses on:
+![Social Performance](Screenshots/Social_Performance.png)
 
-Board composition
-Independence
-Diversity
-Ethics
-Compliance
-Data privacy
-💡 Key Business Insights
+## Governance Performance
+
+Board composition, independence, diversity, ethics, compliance and data privacy.
+
+![Governance Performance](Screenshots/Governance_Performance.png)
+
+
+# 💡 Key Business Insights
 
 The analysis highlights several areas for management attention:
 
@@ -354,7 +341,7 @@ Facility coverage
 
 The report also contains editable charts generated from the analyzed ESG data.
 
-🚀 Recommendations & 2026 Priorities
+# 🚀 Recommendations & 2026 Priorities
 
 Based on the analysis, the following priorities are recommended:
 
@@ -367,8 +354,39 @@ Maintain strong workplace safety programs.
 Strengthen data privacy monitoring and controls.
 Continue improving ethics training completion.
 
+# 📁 Repository Structure
 
-⚠️ Data Disclaimer
+```text
+EcoManufacture-ESG-Analytics/
+│
+├── README.md
+│
+├── data/
+│   └── EcoManufacture_ESG_Portfolio_Dataset_v2.xlsx
+│
+├── Power BI/
+│   └── EcoManufacture_ESG_Dashboard.pbix
+│
+├── Report/
+│   └── EcoManufacture_ESG_Sustainability_Report_2021_2025_EDITABLE_CHARTS.docx
+│
+└── Screenshots/
+    ├── ESG_Overview.png
+    ├── Environmental_Performance.png
+    ├── Social_Performance.png
+    └── Governance_Performance.png
+
+```
+# 📂 Project Files
+
+| Resource | Description |
+|---|---|
+| [📊 Power BI Dashboard](Power%20BI/EcoManufacture_ESG_Dashboard.pbix) | Interactive ESG dashboard |
+| [📁 ESG Dataset](data/EcoManufacture_ESG_Portfolio_Dataset_v2.xlsx) | Consolidated Excel ESG dataset |
+| [📄 Sustainability Report](Report/EcoManufacture_ESG_Sustainability_Report_2021_2025_EDITABLE_CHARTS.docx) | Detailed ESG sustainability report |
+| [🖼️ Dashboard Screenshots](Screenshots/) | Dashboard page previews |
+
+# ⚠️ Data Disclaimer
 
 This project is intended for portfolio and educational purposes.
 
