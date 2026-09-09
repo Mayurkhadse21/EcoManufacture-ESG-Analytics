@@ -367,31 +367,6 @@ Maintain strong workplace safety programs.
 Strengthen data privacy monitoring and controls.
 Continue improving ethics training completion.
 
-📁 Repository Structure
-EcoManufacture-ESG-Analytics/
-│
-├── README.md
-│
-├── data/
-│   ├── EcoManufacture_ESG_Portfolio_Dataset_v2.xlsx
-│   ├── EcoManufacture_Environmental_Monthly.csv
-│   ├── EcoManufacture_Social_Quarterly.csv
-│   └── EcoManufacture_Governance_Quarterly.csv
-│
-├── PowerBI/
-│   └── EcoManufacture_ESG_Dashboard.pbix
-│
-├── Report/
-│   └── EcoManufacture_ESG_Sustainability_Report_2021_2025_EDITABLE_CHARTS.docx
-│
-├── screenshots/
-│   ├── ESG_Overview.png
-│   ├── Environmental_Performance.png
-│   ├── Social_Performance.png
-│   └── Governance_Performance.png
-│
-└── documentation/
-    └── Data_Dictionary.xlsx
 
 ⚠️ Data Disclaimer
 
